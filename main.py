@@ -8,13 +8,13 @@ COMPANY_NAME = "apple"
 text = ""
 
 av_endpoint="https://www.alphavantage.co/query"
-ALPHA_VANTAGE_KEY="6EIDL4VG68RDNNSS"
+ALPHA_VANTAGE_KEY=KEY
 
-newsapi = NewsApiClient(api_key='f5034e7ce1cc4eb4a848ff95d73d685a')
+newsapi = NewsApiClient(api_key=KEY)
 news_endpoint = "https://newsapi.org/v2/top-headlines?"
 
-account_sid = "AC10c15b2559ab99922a9ba07f31d9351f"
-auth_token = "aa18b2906a6fc0ad3a9e56f7d56089e9"
+account_sid = ID
+auth_token = KEY
 
 
 av_params = {
